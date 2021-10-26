@@ -13,15 +13,19 @@ This is a Graphql API for resturant management system called (rms) for sahel res
 
 
 ## Technologies used
+```
 Database: sqlite3 currently... maybe will change in future...
 ORM: TypeORM.js
 Framework: Nest.Js base on (Express.js)
+```
 
 ## Technologies to be used in the future
+```
 -> Socket.io for push notificatino
 -> RabbitMQ To queue requests
 -> Redis for caching
 -> passport.js for Auth
+```
 
 ## Architecture to be used in the future
 Microservices :)
