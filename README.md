@@ -9,7 +9,7 @@
 under development...
 
 ## Description
-This is a Graphql API for resturant management system called (rms) for sahel resturant in my university ([chamran-university](https://scu.ac.ir/))
+This is a Graphql API for resturant management system called (rms) for sahel resturant in university ([chamran-university](https://scu.ac.ir/))
 
 
 ## Technologies used
