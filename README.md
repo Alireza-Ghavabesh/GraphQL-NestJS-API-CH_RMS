@@ -1,6 +1,9 @@
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
 </p>
+<p align="center">
+  <a href="https://scu.ac.ir/" target="blank"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fscu.ac.ir%2Fdisplay%2F-%2Fasset_publisher%2FD5l9YSsAiPVM%2Fcontent%2F%25D8%25B1%25D8%25A7%25D9%2587%25E2%2580%258C%25D8%25A7%25D9%2586%25D8%25AF%25D8%25A7%25D8%25B2%25DB%258C-%25D8%25B1%25D8%25B3%25D8%25AA%25D9%2588%25D8%25B1%25D8%25A7%25D9%2586-%25D8%25B3%25D8%25A7%25D8%25AD%25D9%2584-%25D8%25AF%25D8%25A7%25D9%2586%25D8%25B4%25DA%25AF%25D8%25A7%25D9%2587-%25D8%25B4%25D9%2587%25DB%258C%25D8%25AF-%25DA%2586%25D9%2585%25D8%25B1%25D8%25A7%25D9%2586-%25D8%25A7%25D9%2587%25D9%2588%25D8%25A7%25D8%25B2%2Fpop_up%3F_101_INSTANCE_D5l9YSsAiPVM_viewMode%3Dprint&psig=AOvVaw1f2Bu3q-utyyi5HBIQCwxf&ust=1635333920399000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOD9mOr75_MCFQAAAAAdAAAAABAD" width="320" alt="Chamran Logo" /></a>
+</p>
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
@@ -48,3 +51,5 @@ $ npm run start:prod
 
 Nest is [MIT licensed](LICENSE).
 # GraphQL-NestJS-API-CH_RMS
+
+
