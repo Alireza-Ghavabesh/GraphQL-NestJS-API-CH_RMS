@@ -1,0 +1,88 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Food {
+  id: Int!
+  name: String!
+  price: Int!
+  is_subsidy: String!
+  subsidy_price: Int!
+  order: Order
+}
+
+type Order {
+  id: Int!
+  name: String!
+  date: String!
+  time: String!
+  foods: [Food!]
+}
+
+type Inventory {
+  id: Int!
+  name: String!
+  price: Int!
+}
+
+type Query {
+  orders: [Order!]!
+  order(id: Int!): Order!
+  foods: [Food!]!
+  food(id: Int!): Food!
+  inventorys: [Inventory!]!
+  inventory(id: Int!): Inventory!
+}
+
+type Mutation {
+  createOrder(createOrderInput: CreateOrderInput!): Order!
+  updateOrder(updateOrderInput: UpdateOrderInput!): Order!
+  removeOrder(id: Int!): Order!
+  createFood(createFoodInput: CreateFoodInput!): Food!
+  updateFood(updateFoodInput: UpdateFoodInput!): Food!
+  removeFood(id: Int!): Food!
+  createInventory(createInventoryInput: CreateInventoryInput!): Inventory!
+  updateInventory(updateInventoryInput: UpdateInventoryInput!): Inventory!
+  removeInventory(id: Int!): Inventory!
+}
+
+input CreateOrderInput {
+  name: String
+  date: String
+  time: String
+  foods: [CreateFoodInput!]
+}
+
+input CreateFoodInput {
+  name: String
+  price: Int!
+  is_subsidy: String
+  subsidy_price: Int
+}
+
+input UpdateOrderInput {
+  name: String
+  date: String
+  time: String
+  foods: [CreateFoodInput!]
+  id: Int!
+}
+
+input UpdateFoodInput {
+  name: String
+  price: Int
+  is_subsidy: String
+  subsidy_price: Int
+  id: Int!
+}
+
+input CreateInventoryInput {
+  name: String!
+  price: Int!
+}
+
+input UpdateInventoryInput {
+  name: String
+  price: Int
+  id: Int!
+}
