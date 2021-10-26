@@ -21,7 +21,7 @@ Framework: Nest.Js base on (Express.js)
 
 ## Technologies to be used in the future
 ```
--> Socket.io for push notificatino
+-> Socket.io for push notification
 -> RabbitMQ To queue requests
 -> Redis for caching
 -> passport.js for Auth
