@@ -26,8 +26,8 @@
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Description
+This is a Graphql API for resturant management system called (rms) in my university ([chamran-university](https://scu.ac.ir/))
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
 
@@ -48,8 +48,6 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-
-Nest is [MIT licensed](LICENSE).
 # GraphQL-NestJS-API-CH_RMS
 
 
